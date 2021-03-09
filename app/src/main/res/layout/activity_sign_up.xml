@@ -25,7 +25,7 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="317dp"
+            android:layout_width="341dp"
             android:layout_height="100dp"
             app:srcCompat="@drawable/ic_img_20210309_wa0009"
             tools:ignore="VectorDrawableCompat" />
