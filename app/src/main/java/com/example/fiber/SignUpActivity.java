@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.fiber.Models.Users;
 import com.example.fiber.databinding.ActivitySignUpBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -36,6 +37,10 @@ public class SignUpActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         
                         if(task.isSuccessful()){
+                            Users user=new Users(binding.etUsername.getText().toString(),binding.etEmail.getText().toString(),
+                                    binding.etPassword.getText().toString());
+                            String id= task.getResult().getUser().getUid();
+
                             Toast.makeText(SignUpActivity.this, "User created Successfully", Toast.LENGTH_SHORT).show();
                         }
                         else{
