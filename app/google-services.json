@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "652983745236",
+    "project_id": "fiber-82306",
+    "storage_bucket": "fiber-82306.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652983745236:android:5a6de8f92f44b19608d941",
+        "android_client_info": {
+          "package_name": "com.example.fiber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652983745236-g6rffhqmrqb9eusjgc1d469ubmf75cj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3fne6jff8gIoDKao_IJMYU2c-kTPGfRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652983745236-g6rffhqmrqb9eusjgc1d469ubmf75cj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
