@@ -1,12 +1,12 @@
 package com.example.fiber;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.fiber.Models.Users;
 import com.example.fiber.databinding.ActivitySignUpBinding;
